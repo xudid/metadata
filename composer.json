@@ -1,0 +1,24 @@
+{
+    "name": "xudid/metadata",
+    "type": "library",
+    "require": {
+        "xudid/ui": "^0.121.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xudid\\MetaData\\" : "lib/",
+            "Xudid\\Generator\\" : "src/Generator",
+            "Xudid\\Factory\\": "src/Factory"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Didier Moindreau",
+            "email": "dmoindreau@gmail.com"
+        }
+    ]
+}
